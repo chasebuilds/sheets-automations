@@ -1,0 +1,6 @@
+SKU,Item,On Hand,Reorder Point,Supplier,Last Alert
+FL-25,Flour 25kg,2,5,Mill Co,
+SG-10,Sugar 10kg,5,5,Mill Co,
+CP-12,Cups 12oz (sleeve),40,10,Paper Plus,
+LD-12,Lids 12oz (sleeve),3,10,Paper Plus,2026-03-08
+BX-09,Cake boxes 9in,0,20,,

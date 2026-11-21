@@ -1,0 +1,6 @@
+Client,Email,Invoice #,Amount,Due Date,Paid,Opt Out,Last Reminded
+Acme Bakery,ap@acme.example,INV-0987,640.5,2026-02-20,,,
+Birch & Co,hello@birch.example,INV-0991,1200,2026-03-01,,,
+Cedar Dental,billing@cedar.example,INV-0993,310,2026-02-15,Yes,,
+Delta Garage,office@delta.example,INV-0995,89.99,2026-02-10,,Yes,
+Elm Studio,pay@elm.example,INV-0999,450,2026-03-20,,,
