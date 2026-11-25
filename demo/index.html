@@ -72,7 +72,7 @@ table { border-collapse: collapse; font-size: 12.5px; width: 100% }
 th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--glass-edge); white-space: nowrap; max-width: 340px; overflow: hidden; text-overflow: ellipsis }
 th { position: sticky; top: 0; background: var(--solidcard); font-weight: 600; z-index: 1 }
 #more, #source { color: var(--ink-3); font-size: 12px; margin: 8px 0 0 }
-footer { text-align: center; color: var(--ink-3); font-size: 12px; margin-top: 22px }
+footer { text-align: center; color: var(--ink-3); font-size: 12px; margin-top: 22px; line-height: 1.8 }
 @media (max-width: 600px) { .stage { padding: 18px } h1 { font-size: 22px } }
 
 textarea#csv { width: 100%; min-height: 170px; font-family: var(--f-num); font-size: 12.5px; padding: 12px; border-radius: var(--r-md); border: 1px solid var(--glass-edge); background: var(--solidcard); color: var(--ink) }
@@ -87,12 +87,13 @@ pre.log { font-family: var(--f-num); font-size: 12.5px; padding: 14px; margin: 0
 .mock { display: inline-block; font-size: 12px; padding: 4px 12px; border-radius: var(--r-pill); background: var(--card); border: 1px solid var(--glass-edge); color: var(--warn); font-weight: 500; margin-left: 6px }
 details { margin-top: 16px; font-size: 13px } summary { cursor: pointer; margin-bottom: 8px }
 a.dl { font-size: 12px; padding: 3px 12px; cursor: pointer }
+footer a { color: var(--ink-2) }
 </style>
 </head>
 <body>
 <div class="room" aria-hidden="true"><i class="panel"></i><i class="shelf"></i><i class="lamp"></i></div>
 <div class="wrap">
-  <nav class="bar glass"><span class="brand">Chase Builds</span><a class="pill" href="https://github.com/chasebuilds/sheets-automations">Source on GitHub</a></nav>
+  <nav class="bar glass"><a class="brand" href="https://chasebuilds.github.io/" style="color:inherit;text-decoration:none">Chase Builds</a><a class="pill" href="https://github.com/chasebuilds/sheets-automations">Source on GitHub</a></nav>
   <main class="stage glass">
     <h1>sheets-automations</h1>
     <p class="tag">Five Google Sheets automations for small businesses. This page runs their real TypeScript logic from the repo on sample sheet data, right in your browser.</p>
@@ -111,7 +112,7 @@ a.dl { font-size: 12px; padding: 3px 12px; cursor: pointer }
     </div>
     <section id="out" hidden></section>
   </main>
-  <footer>Logic bundled from src/ with esbuild. The same code runs in Apps Script after <code>npm run build</code>. Sample data is synthetic.</footer>
+  <footer>Logic bundled from src/ with esbuild. The same code runs in Apps Script after <code>npm run build</code>. Sample data is synthetic.<br>Built by <a href="https://chasebuilds.github.io/">Chase Builds</a> &middot; <a href="https://github.com/chasebuilds/sheets-automations">Source on GitHub</a></footer>
 </div>
 <script src="app.js"></script>
 </body>
