@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/chasebuilds/sheets-automations/actions/workflows/ci.yml/badge.svg)](https://github.com/chasebuilds/sheets-automations/actions/workflows/ci.yml)
 
+**[Live demo: try it in your browser](https://chasebuilds.github.io/sheets-automations/)**. Run the five automations on sample sheet data, or paste your own CSV. The real TypeScript logic runs in the page; Apps Script services (Sheets, Gmail, Docs, Drive) are mocked and labelled, so nothing is sent.
+
+[![The live demo after running the low-stock alert: the updated sheet, the email preview and the mocked Apps Script calls](docs/demo.png)](https://chasebuilds.github.io/sheets-automations/)
+
 Five Google Apps Script automations that small businesses ask for, written in TypeScript and deployed with clasp. The business rules live in plain functions with no Apps Script dependency, so they are unit-tested in Node with fakes for `SpreadsheetApp`, `GmailApp` and the Docs/Drive calls.
 
 | # | Automation | What it does |

@@ -4,3 +4,4 @@ coverage/
 .clasp.json
 .clasprc.json
 docs/_render/
+_site/
