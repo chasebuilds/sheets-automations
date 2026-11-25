@@ -18,7 +18,7 @@
     "@types/google-apps-script": "^1.0.83",
     "@types/node": "^22.0.0",
     "@vitest/coverage-v8": "^4.1.12",
-    "esbuild": "^0.25.12",
+    "esbuild": "^0.28.2",
     "eslint": "^9.0.0",
     "exceljs": "^4.4.0",
     "typescript": "^5.6.0",
