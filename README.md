@@ -110,3 +110,11 @@ See [LIMITATIONS.md](LIMITATIONS.md). The main one: this repo was never deployed
 ## License
 
 MIT, Chase Builds.
+
+## More from Chase Builds
+
+- **[appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api)**: Online booking that never double-books and gets time zones right. ([live demo](https://chasebuilds.github.io/appointment-booking-api/))
+- **[small-business-county-study](https://github.com/chasebuilds/small-business-county-study)**: How small businesses are doing in 31 Eastern Kentucky counties, from free Census data. ([live demo](https://chasebuilds.github.io/small-business-county-study/))
+- **[web-data-extractor](https://github.com/chasebuilds/web-data-extractor)**: Public web pages to a checked spreadsheet, only where the site allows it.
+
+[All projects, sorted by industry](https://github.com/chasebuilds) · [chasebuilds.github.io](https://chasebuilds.github.io)
